@@ -5,7 +5,7 @@
 #import "Speaker.h"
 #import "SpeakerCollectionViewCell.h"
 
-SPEC_BEGIN(SpeakersCollectionViewDataSource)
+SpecBegin(SpeakersCollectionViewDataSource)
 
 describe(@"SpeakersCollectionViewDataSource", ^{
     __block SpeakersCollectionViewDataSource *collectionViewDataSource;
@@ -85,4 +85,4 @@ describe(@"SpeakersCollectionViewDataSource", ^{
     });
 });
 
-SPEC_END
+SpecEnd

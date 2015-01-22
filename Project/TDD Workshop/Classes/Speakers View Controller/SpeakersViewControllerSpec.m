@@ -4,7 +4,7 @@
 #import "SpeakersCollectionViewDataSource.h"
 #import "Speaker.h"
 
-SPEC_BEGIN(SpeakersViewController)
+SpecBegin(SpeakersViewController)
 
 describe(@"SpeakersViewController", ^{
     __block SpeakersViewController *viewController;
@@ -108,4 +108,4 @@ describe(@"SpeakersViewController", ^{
     });
 });
 
-SPEC_END
+SpecEnd

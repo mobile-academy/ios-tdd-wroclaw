@@ -2,7 +2,7 @@
 
 #import "SpeakerCollectionViewCell.h"
 
-SPEC_BEGIN(SpeakerCollectionViewCell)
+SpecBegin(SpeakerCollectionViewCell)
 
 describe(@"SpeakerCollectionViewCell", ^{
     __block SpeakerCollectionViewCell *collectionViewCell;
@@ -20,4 +20,4 @@ describe(@"SpeakerCollectionViewCell", ^{
     });
 });
 
-SPEC_END
+SpecEnd

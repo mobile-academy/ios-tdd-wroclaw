@@ -1,7 +1,7 @@
 #import "Specs.h"
 #import "StreamItemPreviewViewController.h"
 
-SPEC_BEGIN(StreamItemPreviewViewControllerSpec)
+SpecBegin(StreamItemPreviewViewControllerSpec)
 describe(@"StreamItemPreviewViewController", ^{
 
     __block StreamItemPreviewViewController *streamItemPreviewViewController;
@@ -14,4 +14,4 @@ describe(@"StreamItemPreviewViewController", ^{
         streamItemPreviewViewController = nil;
     });
 });
-SPEC_END
+SpecEnd

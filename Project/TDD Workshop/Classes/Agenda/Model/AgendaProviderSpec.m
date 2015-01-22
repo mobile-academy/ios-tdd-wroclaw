@@ -2,7 +2,7 @@
 
 #import "AgendaProvider.h"
 
-SPEC_BEGIN(AgendaProvider)
+SpecBegin(AgendaProvider)
 
 describe(@"AgendaProvider", ^{
     __block AgendaProvider *agendaProvider;
@@ -16,4 +16,4 @@ describe(@"AgendaProvider", ^{
     });
 });
 
-SPEC_END
+SpecEnd

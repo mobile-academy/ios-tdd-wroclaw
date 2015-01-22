@@ -3,7 +3,7 @@
 #import "SpeakerDetailsViewController.h"
 #import "Speaker.h"
 
-SPEC_BEGIN(SpeakerDetailsViewControllerSpec)
+SpecBegin(SpeakerDetailsViewControllerSpec)
 
 describe(@"SpeakerDetailsViewController", ^{
     __block SpeakerDetailsViewController *detailsViewController;
@@ -22,4 +22,4 @@ describe(@"SpeakerDetailsViewController", ^{
     });
 });
 
-SPEC_END
+SpecEnd

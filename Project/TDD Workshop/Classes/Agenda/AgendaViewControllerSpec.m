@@ -2,7 +2,7 @@
 
 #import "AgendaViewController.h"
 
-SPEC_BEGIN(AgendaViewController)
+SpecBegin(AgendaViewController)
 
 describe(@"AgendaViewController", ^{
     __block AgendaViewController *viewController;
@@ -16,4 +16,4 @@ describe(@"AgendaViewController", ^{
     });
 });
 
-SPEC_END
+SpecEnd

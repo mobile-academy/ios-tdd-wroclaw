@@ -2,7 +2,7 @@
 #import "PhotoStreamViewController.h"
 #import "StreamItem.h"
 
-SPEC_BEGIN(PhotoStreamViewController)
+SpecBegin(PhotoStreamViewController)
     describe(@"PhotoStreamViewController", ^{
         __block PhotoStreamViewController *photoStreamViewController;
         beforeEach(^{
@@ -77,4 +77,4 @@ SPEC_BEGIN(PhotoStreamViewController)
         });
 
     });
-SPEC_END
+SpecEnd
