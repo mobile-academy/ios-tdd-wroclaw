@@ -69,9 +69,11 @@ SpecBegin(PhotoStreamViewController)
                 photoStreamViewController.streamItemUploader = streamItemUploaderMock;
                 testStreamItem = [StreamItem new];
 
+                photoStreamViewController.streamItemDownloader = mock([StreamItemDownloader class]);
+
                 [photoStreamViewController streamItemCreator:itemCreatorMock didCreateItem:testStreamItem];
             });
-            it(@"should upload be uploaded to the server", ^{
+            it(@"should be uploaded to the server", ^{
                 [verify(streamItemUploaderMock) uploadStreamItem:testStreamItem];
             });
         });
