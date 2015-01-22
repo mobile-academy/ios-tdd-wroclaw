@@ -49,6 +49,7 @@
 		B27A9056ADDB5BAB5972C05E /* SpeakersCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9C59E6E6435FEAA650A4 /* SpeakersCollectionViewLayout.m */; };
 		B27A90C1276516EF0976C721 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A98A82123128D7921D187 /* AppDelegate.m */; };
 		B27A9102589328414886245B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B27A9F1C86B830D77578705F /* Images.xcassets */; };
+		B27A91A6D48D701685E14516 /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A94D1DA7B3A5A7FF00A87 /* TestAppDelegate.m */; };
 		B27A925418322C40B77A8998 /* AgendaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9FB3501C500CA929A2A1 /* AgendaItem.m */; };
 		B27A928374737A6869A3182D /* SpeakersCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9C59E6E6435FEAA650A4 /* SpeakersCollectionViewLayout.m */; };
 		B27A92B6316A1E604BF9B98F /* SeparatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9A99558246AC21EABCD7 /* SeparatorView.m */; };
@@ -155,9 +156,11 @@
 		B27A9294987EC3FA6A167639 /* TDD Workshop-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TDD Workshop-Prefix.pch"; sourceTree = "<group>"; };
 		B27A92AF299A933F6819BD8F /* SpeakersCollectionViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakersCollectionViewDataSource.m; sourceTree = "<group>"; };
 		B27A92D0682AFE21E11385A9 /* AgendaViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendaViewControllerSpec.m; sourceTree = "<group>"; };
+		B27A92E7F6274E4D1FD8C162 /* TestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAppDelegate.h; sourceTree = "<group>"; };
 		B27A93855BF2107C0B4BF793 /* SpeakersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakersViewController.h; sourceTree = "<group>"; };
 		B27A945B2F9713B160FE4645 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B27A946A674AB41D1AD4B020 /* SpeakerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerCell.h; sourceTree = "<group>"; };
+		B27A94D1DA7B3A5A7FF00A87 /* TestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAppDelegate.m; sourceTree = "<group>"; };
 		B27A95CBA8217D8E220C878C /* SpeakersCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakersCollectionViewLayout.h; sourceTree = "<group>"; };
 		B27A95D785FBAC782725090F /* Speaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Speaker.h; sourceTree = "<group>"; };
 		B27A962953CC54B6ECA2B94E /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
@@ -296,6 +299,8 @@
 				43C5D4EC190447DE002D1766 /* Specs.h */,
 				43C5D4DE1904429F002D1766 /* TDD WorkshopTests-Info.plist */,
 				43C5D4DF1904429F002D1766 /* InfoPlist.strings */,
+				B27A94D1DA7B3A5A7FF00A87 /* TestAppDelegate.m */,
+				B27A92E7F6274E4D1FD8C162 /* TestAppDelegate.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -811,6 +816,7 @@
 				1EDB80AF6BC4C379C818A5CF /* AgendaProviderSpec.m in Sources */,
 				B27A93BC50952551175D197B /* SpeakerDetailsViewControllerSpec.m in Sources */,
 				510430CE778A22D93A35BC09 /* StreamItemPreviewViewControllerSpec.m in Sources */,
+				B27A91A6D48D701685E14516 /* TestAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
