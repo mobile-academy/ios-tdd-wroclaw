@@ -3,10 +3,10 @@
 //  
 
 
-#import "AbstractConfiguration.h"
+#import "WroclawConfiguration.h"
 
 
-@implementation AbstractConfiguration
+@implementation WroclawConfiguration
 @synthesize parseApplicationId, parseClientId;
 
 #pragma mark - Object life cycle
@@ -14,8 +14,8 @@
 - (id)init {
     self = [super init];
     if (self) {
-        self.parseApplicationId = @"mi0gbnDuIQBlaK6SGMRYWNoXyRxdX4QKR8xZF2c9";
-        self.parseClientId = @"9784XYheCXdnJUL62PmxcnARFMsVPG8suTHCZjaA";
+        self.parseApplicationId = @"I7K1vCEZVtfaKnJrJoQikmLKogKUdZ7Xmc2xIVOx";
+        self.parseClientId = @"GpMCpGWmiQD6gOg6NbtPycYuayWAfbSlr8zNzXeq";
     }
     return self;
 }

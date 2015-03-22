@@ -91,7 +91,7 @@
 #pragma mark - UIImagePickerControllerDelegate
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
-    UIImage *pickedImage = [info objectForKey:UIImagePickerControllerOriginalImage];
+    UIImage *pickedImage = info[UIImagePickerControllerOriginalImage];
     UIImage *resizedImage = [self.imageResizer resizeImage:pickedImage toBoundBothDimensionsTo:self.maxImageDimension];
     self.createdItem = [StreamItem new];
     self.createdItem.data = UIImageJPEGRepresentation(resizedImage, self.imageQuality);

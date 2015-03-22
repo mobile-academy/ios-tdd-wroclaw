@@ -5,7 +5,7 @@
 
 #import "ConfigurationFactory.h"
 #import "Configuration.h"
-#import "AbstractConfiguration.h"
+#import "WroclawConfiguration.h"
 
 
 @interface ConfigurationFactory ()
@@ -21,9 +21,8 @@
     self = [super init];
     if (self) {
         self.mappingKey = [[NSBundle mainBundle] bundleIdentifier];
-        NSAssert(NO, @"Add and rename actual configuration for given edition");
         self.configurationMapping = @{
-            @"com.mobile-warsaw.TDD-Workshop" : [AbstractConfiguration class]
+            @"com.mobile-warsaw.TDD-Workshop" : [WroclawConfiguration class]
         };
     }
     return self;
