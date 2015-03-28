@@ -1,9 +1,11 @@
 tdd-workshop
 ===============
 
-## Setup
+## Workshop completed
 
-- Check whether the app compiles
+The workshop has ended. All changes and excersises are merged into master.
+
+In _Materials_ directory you'll find presentations as well.
 
 ## Materials
 - Specs.h - Default header for specs target
